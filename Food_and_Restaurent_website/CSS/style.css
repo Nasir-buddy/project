@@ -162,6 +162,9 @@ ol{
   }
 
   /* Header Design */
+  .marginh1{
+    margin-bottom: .5rem;
+  }
   .navigation-wrap{
     position: fixed;
     width: 100%;
@@ -276,6 +279,7 @@ ol{
     border: none;
     background-color: transparent;
     border-radius: 0.9375rem;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
   }
   .explore-food .card img{ 
     border-radius: 0.9375rem;
@@ -292,6 +296,18 @@ ol{
   .explore-food .card span del{
     color: var(--text-gray);
     margin-left: 0.5rem;
+  }
+  .explore-food .card:hover{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+    background-color: #eeeded;
+    transition: all .5s ease-in;
+  }
+ 
+  .marginbtn{
+    margin: .5rem;
+  }
+  .padding-name{
+    padding-left: 1rem;
   }
 
   /* Testimonial section dwsign */
@@ -331,4 +347,59 @@ ol{
     opacity: 1;
   }
 
-  /*  */
+  /* Faq */
+  .faq h4 span{
+    color: var(--primary-color);
+    font-size: 1.875rem;
+    margin-right: 0.3135rem;
+  }
+  .book-food{
+    width: 100%;
+    background: url(../images/bg/bg-3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: 0 71.9125px;
+    padding: 4.375rem 0;
+  }
+  /* Form control */
+  .newsletter{
+    width: 55%;
+    margin: auto;
+  }
+  .newsletter .form-control{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid;
+    color: var(--black-color);
+    font-weight: 700;
+  }
+  .newsletter .form-control:hover,
+  .newsletter .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: var(--primary-color) ;
+  }
+
+  /* footer section */
+  .footer{
+    background: var(--primary-color);
+  }
+  .footer .footer-link{
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0 1.875rem;
+
+  }
+  .footer .footer-link:hover{
+    color: var(--white-color) !important;
+  }
+  .footer a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+  }

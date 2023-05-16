@@ -1,3 +1,4 @@
+
 //active navbar
     let nav = document.querySelector(".navigation-wrap");
     window.onscroll = function () {
@@ -37,3 +38,4 @@ document.addEventListener("DOMContentLoaded",()=> {
     counter("count4", 0 , 7110 , 3456);
     counter("count5", 0 , 100 , 1000);
 });
+  
