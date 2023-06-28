@@ -256,5 +256,17 @@ a.btn:nth-child(2)::before{
 
 .social-icon a:hover::before{
     width: 100%;
+}
 
+.home-image{
+    position: relative;
+}
+.image-box{
+    text-align: center;
+}
+
+.image-box image{
+    width: 100%;
+    max-width: 35px;
+    height: auto;
 }
