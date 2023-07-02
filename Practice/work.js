@@ -625,7 +625,7 @@ gsap.to(".circle",{
   },
   // backgroundColor : '#0a3bce91',
   scale: 1.5
-})
+});
 
 gsap.to(".cir-inner",{
   scrollTrigger:{
@@ -637,4 +637,4 @@ gsap.to(".cir-inner",{
     scrub: .5
   },
     backgroundColor: '#0a3bce91',
-})
+});
